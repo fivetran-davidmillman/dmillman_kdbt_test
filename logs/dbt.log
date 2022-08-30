@@ -1,0 +1,1540 @@
+
+
+============================== 2022-08-30 16:56:07.681867 | 70ca3dd1-3fc0-45ca-8019-a22584e60a7a ==============================
+[0m16:56:07.681901 [info ] [MainThread]: Running with dbt=1.2.0
+[0m16:56:07.683234 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m16:56:07.683554 [debug] [MainThread]: Tracking: tracking
+[0m16:56:07.684137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee6020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee6050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee6140>]}
+[0m16:56:07.691242 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m16:56:07.691466 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '70ca3dd1-3fc0-45ca-8019-a22584e60a7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee76a0>]}
+[0m16:56:07.693720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee7100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee7bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ee5420>]}
+
+
+============================== 2022-08-30 16:56:32.098043 | ffe352af-d524-470b-8ddd-dff489645f9f ==============================
+[0m16:56:32.098067 [info ] [MainThread]: Running with dbt=1.2.0
+[0m16:56:32.098568 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m16:56:32.098682 [debug] [MainThread]: Tracking: tracking
+[0m16:56:32.098855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112522020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112522080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112522140>]}
+[0m16:56:32.105394 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m16:56:32.105572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'ffe352af-d524-470b-8ddd-dff489645f9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1125209d0>]}
+[0m16:56:32.106939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112523100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1125233d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112521420>]}
+
+
+============================== 2022-08-30 16:59:03.315724 | 28be673a-6bfe-4609-af88-080e6ee9d77f ==============================
+[0m16:59:03.315755 [info ] [MainThread]: Running with dbt=1.2.0
+[0m16:59:03.316373 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m16:59:03.316641 [debug] [MainThread]: Tracking: tracking
+[0m16:59:03.316914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d45ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d46050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d460e0>]}
+[0m16:59:03.324119 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m16:59:03.324291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '28be673a-6bfe-4609-af88-080e6ee9d77f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d47e50>]}
+[0m16:59:03.326230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d470d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d448b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d45450>]}
+
+
+============================== 2022-08-30 17:01:23.922738 | 5534f3ae-2f92-4549-8b69-088e605099be ==============================
+[0m17:01:23.922760 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:01:23.923516 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:01:23.923618 [debug] [MainThread]: Tracking: tracking
+[0m17:01:23.923828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109336020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109336080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109336140>]}
+[0m17:01:23.929815 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:01:23.929994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5534f3ae-2f92-4549-8b69-088e605099be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093365c0>]}
+[0m17:01:23.931562 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109337100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093373a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109335420>]}
+
+
+============================== 2022-08-30 17:03:18.625959 | 2132fb8c-d45b-431c-9b90-24170b44e7b7 ==============================
+[0m17:03:18.626001 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:03:18.629803 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:03:18.630225 [debug] [MainThread]: Tracking: tracking
+[0m17:03:18.630887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c922050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c9220b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c922170>]}
+[0m17:03:18.638793 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:03:18.638989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2132fb8c-d45b-431c-9b90-24170b44e7b7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c922ef0>]}
+[0m17:03:18.642574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c9230d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c921420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c920a90>]}
+
+
+============================== 2022-08-30 17:03:36.716907 | b1f468ae-5816-486c-88b2-c5ab8b6299b7 ==============================
+[0m17:03:36.716959 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:03:36.717419 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:03:36.717509 [debug] [MainThread]: Tracking: tracking
+[0m17:03:36.717722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119055ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119056110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1190560e0>]}
+[0m17:03:36.723702 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:03:36.723892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b1f468ae-5816-486c-88b2-c5ab8b6299b7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119056530>]}
+[0m17:03:36.725370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1190570d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119056f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119055450>]}
+
+
+============================== 2022-08-30 17:03:51.944289 | c5484e07-7d14-4bbd-b649-a9090762bb90 ==============================
+[0m17:03:51.945870 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:03:51.946714 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:03:51.946834 [debug] [MainThread]: Tracking: tracking
+[0m17:03:51.947154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10797a020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10797a0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10797a140>]}
+[0m17:03:51.953799 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:03:51.953998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c5484e07-7d14-4bbd-b649-a9090762bb90', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10797aef0>]}
+[0m17:03:51.955516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10797b100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107978880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107979420>]}
+
+
+============================== 2022-08-30 17:06:23.120160 | cb404dae-9915-4c6d-bc03-3451c33a3167 ==============================
+[0m17:06:23.120187 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:06:23.120857 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:06:23.120953 [debug] [MainThread]: Tracking: tracking
+[0m17:06:23.121181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110719ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11071a050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11071a0e0>]}
+[0m17:06:23.127384 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:06:23.127551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'cb404dae-9915-4c6d-bc03-3451c33a3167', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11071be50>]}
+[0m17:06:23.129302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11071b0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110719450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110718a90>]}
+
+
+============================== 2022-08-30 17:06:37.861181 | cb270a2f-ddf7-4ddf-ad02-bba8fe77e7a7 ==============================
+[0m17:06:37.861273 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:06:37.861951 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:06:37.862078 [debug] [MainThread]: Tracking: tracking
+[0m17:06:37.862267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b81ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b82050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b82110>]}
+[0m17:06:37.868253 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:06:37.868445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'cb270a2f-ddf7-4ddf-ad02-bba8fe77e7a7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b83df0>]}
+[0m17:06:37.870075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b83130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b81420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b80a30>]}
+
+
+============================== 2022-08-30 17:06:53.198801 | 5d3042d2-f936-4027-be74-b13247b97c02 ==============================
+[0m17:06:53.198826 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:06:53.199339 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:06:53.199431 [debug] [MainThread]: Tracking: tracking
+[0m17:06:53.199657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c5e050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c5e0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c5e170>]}
+[0m17:06:53.205600 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:06:53.205763 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5d3042d2-f936-4027-be74-b13247b97c02', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c5eef0>]}
+[0m17:06:53.207342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c5f0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c5c8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c5d420>]}
+
+
+============================== 2022-08-30 17:11:07.682217 | d66e8607-8a80-4a6b-be29-583b5aac6b43 ==============================
+[0m17:11:07.682284 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:11:07.683036 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:11:07.683129 [debug] [MainThread]: Tracking: tracking
+[0m17:11:07.683402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ce2050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ce20b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ce2170>]}
+[0m17:11:07.689357 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:11:07.689503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd66e8607-8a80-4a6b-be29-583b5aac6b43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ce3e50>]}
+[0m17:11:07.700620 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m17:11:07.701881 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m17:11:07.723079 [debug] [MainThread]: Parsing macros/materializations/merge.sql
+[0m17:11:07.724938 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m17:11:07.727267 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m17:11:07.727837 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m17:11:07.729603 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m17:11:07.733800 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m17:11:07.734256 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:11:07.734503 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:11:07.734780 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:11:07.734993 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:11:07.735173 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m17:11:07.736798 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m17:11:07.737770 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m17:11:07.738497 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m17:11:07.745926 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m17:11:07.752065 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m17:11:07.757625 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m17:11:07.759585 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m17:11:07.760354 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m17:11:07.761108 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m17:11:07.762989 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m17:11:07.770747 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m17:11:07.771434 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m17:11:07.775637 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m17:11:07.782786 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m17:11:07.785250 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m17:11:07.786455 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m17:11:07.788882 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m17:11:07.789422 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m17:11:07.790871 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m17:11:07.791833 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m17:11:07.794907 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m17:11:07.803511 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m17:11:07.804171 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m17:11:07.805240 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m17:11:07.805886 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m17:11:07.806253 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m17:11:07.806584 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m17:11:07.806859 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m17:11:07.807416 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m17:11:07.809255 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m17:11:07.812898 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m17:11:07.813225 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m17:11:07.813718 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m17:11:07.814109 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m17:11:07.814487 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m17:11:07.814985 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m17:11:07.815302 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:11:07.815709 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:11:07.816139 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m17:11:07.817184 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m17:11:07.817684 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:11:07.818113 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m17:11:07.818532 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m17:11:07.818941 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m17:11:07.819306 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m17:11:07.819732 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m17:11:07.820095 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m17:11:07.822506 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:11:07.822881 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m17:11:07.823611 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m17:11:07.824470 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m17:11:07.824887 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m17:11:07.825798 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m17:11:07.826888 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m17:11:07.833224 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m17:11:07.834395 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m17:11:07.840080 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m17:11:07.841893 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m17:11:07.844958 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m17:11:07.849034 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m17:11:07.954520 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:11:07.971623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ea0ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e8f4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e8d750>]}
+
+
+============================== 2022-08-30 17:17:38.959582 | 5bcd64f4-8999-4133-b2c2-ccc5e39c15d1 ==============================
+[0m17:17:38.959618 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:17:38.960190 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:17:38.960306 [debug] [MainThread]: Tracking: tracking
+[0m17:17:38.960486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a15f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a160e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a16140>]}
+[0m17:17:38.966572 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:17:38.966740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5bcd64f4-8999-4133-b2c2-ccc5e39c15d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a14280>]}
+[0m17:17:38.979238 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m17:17:38.980423 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m17:17:39.001463 [debug] [MainThread]: Parsing macros/materializations/merge.sql
+[0m17:17:39.003315 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m17:17:39.005636 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m17:17:39.006180 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m17:17:39.007950 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m17:17:39.012194 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m17:17:39.012607 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:17:39.012848 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:17:39.013120 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:17:39.013325 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:17:39.013500 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m17:17:39.015092 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m17:17:39.016028 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m17:17:39.016721 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m17:17:39.023954 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m17:17:39.029818 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m17:17:39.035151 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m17:17:39.037020 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m17:17:39.037768 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m17:17:39.038489 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m17:17:39.040293 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m17:17:39.047810 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m17:17:39.048420 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m17:17:39.052436 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m17:17:39.059303 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m17:17:39.061646 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m17:17:39.062792 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m17:17:39.065127 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m17:17:39.065636 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m17:17:39.067034 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m17:17:39.067957 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m17:17:39.070909 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m17:17:39.079185 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m17:17:39.079790 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m17:17:39.080810 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m17:17:39.081442 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m17:17:39.081811 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m17:17:39.082127 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m17:17:39.082403 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m17:17:39.082964 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m17:17:39.084780 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m17:17:39.088410 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m17:17:39.088735 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m17:17:39.089226 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m17:17:39.089604 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m17:17:39.089973 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m17:17:39.090466 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m17:17:39.090781 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:17:39.091189 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:17:39.091634 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m17:17:39.092656 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m17:17:39.093152 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:17:39.093583 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m17:17:39.094002 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m17:17:39.094413 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m17:17:39.094778 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m17:17:39.095206 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m17:17:39.095560 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m17:17:39.097936 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:17:39.098304 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m17:17:39.099036 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m17:17:39.099881 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m17:17:39.100291 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m17:17:39.101209 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m17:17:39.102273 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m17:17:39.108555 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m17:17:39.109722 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m17:17:39.115535 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m17:17:39.117343 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m17:17:39.120407 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m17:17:39.124485 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m17:17:39.224894 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:17:39.239765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ba0d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b5dff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b5c400>]}
+
+
+============================== 2022-08-30 17:18:39.461294 | 8814601a-03b4-4ef4-9814-6317952bf7ef ==============================
+[0m17:18:39.461313 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:18:39.461873 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:18:39.461969 [debug] [MainThread]: Tracking: tracking
+[0m17:18:39.462151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105045ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105046110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050460e0>]}
+[0m17:18:39.467943 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:18:39.468112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8814601a-03b4-4ef4-9814-6317952bf7ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105047e50>]}
+[0m17:18:39.478792 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m17:18:39.480045 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m17:18:39.500858 [debug] [MainThread]: Parsing macros/materializations/merge.sql
+[0m17:18:39.502611 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m17:18:39.505084 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m17:18:39.505775 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m17:18:39.507469 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m17:18:39.511806 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m17:18:39.512304 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:18:39.512558 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:18:39.512843 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:18:39.513052 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:18:39.513236 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m17:18:39.514827 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m17:18:39.515751 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m17:18:39.516442 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m17:18:39.523732 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m17:18:39.529592 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m17:18:39.534907 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m17:18:39.536761 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m17:18:39.537498 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m17:18:39.538227 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m17:18:39.540055 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m17:18:39.547563 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m17:18:39.548175 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m17:18:39.552210 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m17:18:39.559092 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m17:18:39.561434 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m17:18:39.562574 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m17:18:39.564905 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m17:18:39.565412 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m17:18:39.566801 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m17:18:39.567731 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m17:18:39.570715 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m17:18:39.578947 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m17:18:39.579551 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m17:18:39.580573 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m17:18:39.581199 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m17:18:39.581570 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m17:18:39.581889 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m17:18:39.582163 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m17:18:39.582714 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m17:18:39.584527 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m17:18:39.588138 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m17:18:39.588456 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m17:18:39.588940 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m17:18:39.589320 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m17:18:39.589691 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m17:18:39.590180 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m17:18:39.590493 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:18:39.590909 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:18:39.591346 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m17:18:39.592367 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m17:18:39.592860 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:18:39.593295 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m17:18:39.593713 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m17:18:39.594116 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m17:18:39.594491 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m17:18:39.594916 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m17:18:39.595271 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m17:18:39.597658 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:18:39.598024 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m17:18:39.598746 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m17:18:39.599587 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m17:18:39.599994 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m17:18:39.600894 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m17:18:39.601961 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m17:18:39.608281 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m17:18:39.609446 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m17:18:39.615106 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m17:18:39.616894 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m17:18:39.619950 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m17:18:39.623978 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m17:18:39.723989 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:18:39.738748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051accd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105199540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051989d0>]}
+
+
+============================== 2022-08-30 17:24:50.129557 | bfe10560-7b7a-46b8-a1bf-c5aee4462ece ==============================
+[0m17:24:50.129617 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:24:50.130253 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:24:50.130366 [debug] [MainThread]: Tracking: tracking
+[0m17:24:50.130579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113555ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113556110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1135560e0>]}
+[0m17:24:50.136931 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:24:50.137102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'bfe10560-7b7a-46b8-a1bf-c5aee4462ece', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113556f20>]}
+[0m17:24:50.155730 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m17:24:50.157011 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m17:24:50.179171 [debug] [MainThread]: Parsing macros/materializations/merge.sql
+[0m17:24:50.181351 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m17:24:50.183771 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m17:24:50.184341 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m17:24:50.185928 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m17:24:50.190508 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m17:24:50.191094 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:24:50.191378 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:24:50.191691 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:24:50.191921 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:24:50.192120 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m17:24:50.193983 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m17:24:50.195168 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m17:24:50.195904 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m17:24:50.204199 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m17:24:50.210840 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m17:24:50.216833 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m17:24:50.218866 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m17:24:50.219638 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m17:24:50.220391 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m17:24:50.222472 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m17:24:50.230891 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m17:24:50.231630 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m17:24:50.236389 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m17:24:50.243507 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m17:24:50.245991 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m17:24:50.247232 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m17:24:50.249615 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m17:24:50.250205 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m17:24:50.251657 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m17:24:50.252604 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m17:24:50.255723 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m17:24:50.264261 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m17:24:50.264911 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m17:24:50.265944 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m17:24:50.266632 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m17:24:50.267040 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m17:24:50.267393 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m17:24:50.267691 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m17:24:50.268270 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m17:24:50.270152 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m17:24:50.273861 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m17:24:50.274198 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m17:24:50.274695 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m17:24:50.275081 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m17:24:50.275452 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m17:24:50.275959 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m17:24:50.276286 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:24:50.276721 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:24:50.277157 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m17:24:50.278201 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m17:24:50.278711 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:24:50.279159 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m17:24:50.279584 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m17:24:50.279994 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m17:24:50.280370 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m17:24:50.280805 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m17:24:50.281163 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m17:24:50.283601 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:24:50.283983 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m17:24:50.284710 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m17:24:50.285555 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m17:24:50.285971 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m17:24:50.286887 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m17:24:50.287958 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m17:24:50.294353 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m17:24:50.295592 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m17:24:50.301306 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m17:24:50.303149 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m17:24:50.306254 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m17:24:50.310364 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m17:24:50.412689 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:24:50.427984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1136e0cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1136cfe50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1136cd720>]}
+
+
+============================== 2022-08-30 17:25:32.022346 | cd87777d-f6f4-42b9-92c4-a9eeb4968c6d ==============================
+[0m17:25:32.022379 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:25:32.022905 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:25:32.023016 [debug] [MainThread]: Tracking: tracking
+[0m17:25:32.023239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021e050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021e0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021e170>]}
+[0m17:25:32.029014 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:25:32.029184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'cd87777d-f6f4-42b9-92c4-a9eeb4968c6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021e5f0>]}
+[0m17:25:32.030460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021f0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021ec80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021ece0>]}
+
+
+============================== 2022-08-30 17:25:58.292941 | 05f7a1aa-c81a-4387-86ef-c8c230cbdb4e ==============================
+[0m17:25:58.292965 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:25:58.293518 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:25:58.293658 [debug] [MainThread]: Tracking: tracking
+[0m17:25:58.293870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111029ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11102a110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11102a0e0>]}
+[0m17:25:58.300269 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:25:58.300434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '05f7a1aa-c81a-4387-86ef-c8c230cbdb4e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11102a530>]}
+[0m17:25:58.301920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11102b0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11102acb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11102ad10>]}
+
+
+============================== 2022-08-30 17:27:42.520940 | 0c1ffba6-c8f2-4253-8d67-0214d72bddf6 ==============================
+[0m17:27:42.520960 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:27:42.521593 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:27:42.521709 [debug] [MainThread]: Tracking: tracking
+[0m17:27:42.521958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eedff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eee110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eee0e0>]}
+[0m17:27:42.528228 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:27:42.528392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0c1ffba6-c8f2-4253-8d67-0214d72bddf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eefa60>]}
+[0m17:27:42.533132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eef0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eeecb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104eeed10>]}
+
+
+============================== 2022-08-30 17:28:15.503037 | c333a137-0422-47bf-b5b9-c55721001ce7 ==============================
+[0m17:28:15.503060 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:28:15.503808 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:28:15.503938 [debug] [MainThread]: Tracking: tracking
+[0m17:28:15.504136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e0a020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e0a080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e0a140>]}
+[0m17:28:15.509622 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:28:15.509791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c333a137-0422-47bf-b5b9-c55721001ce7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e0aef0>]}
+[0m17:28:15.521555 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m17:28:15.522785 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m17:28:15.543107 [debug] [MainThread]: Parsing macros/materializations/merge.sql
+[0m17:28:15.544867 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m17:28:15.547071 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m17:28:15.547609 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m17:28:15.549151 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m17:28:15.553119 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m17:28:15.553537 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:28:15.553787 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:28:15.554066 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:28:15.554274 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:28:15.554451 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m17:28:15.556016 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m17:28:15.556930 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m17:28:15.557615 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m17:28:15.564756 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m17:28:15.570593 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m17:28:15.575888 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m17:28:15.577739 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m17:28:15.578463 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m17:28:15.579180 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m17:28:15.580976 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m17:28:15.588468 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m17:28:15.589078 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m17:28:15.593092 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m17:28:15.599963 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m17:28:15.602313 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m17:28:15.603463 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m17:28:15.605865 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m17:28:15.606377 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m17:28:15.607784 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m17:28:15.608716 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m17:28:15.611665 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m17:28:15.619865 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m17:28:15.620463 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m17:28:15.621478 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m17:28:15.622099 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m17:28:15.622471 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m17:28:15.622787 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m17:28:15.623062 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m17:28:15.623613 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m17:28:15.625428 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m17:28:15.629059 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m17:28:15.629381 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m17:28:15.629868 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m17:28:15.630247 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m17:28:15.630615 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m17:28:15.631112 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m17:28:15.631426 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:28:15.631831 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:28:15.632257 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m17:28:15.633280 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m17:28:15.633765 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:28:15.634193 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m17:28:15.634612 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m17:28:15.635017 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m17:28:15.635375 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m17:28:15.635796 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m17:28:15.636147 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m17:28:15.638540 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:28:15.638911 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m17:28:15.639636 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m17:28:15.640472 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m17:28:15.640883 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m17:28:15.641784 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m17:28:15.642851 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m17:28:15.649127 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m17:28:15.650295 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m17:28:15.655942 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m17:28:15.657722 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m17:28:15.660775 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m17:28:15.664806 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m17:28:15.766699 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:28:15.781642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fd4c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fc2320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fc1a80>]}
+
+
+============================== 2022-08-30 17:28:48.502770 | 90b1ac45-9281-4a7d-a0f7-854e589db761 ==============================
+[0m17:28:48.502810 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:28:48.503285 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:28:48.503387 [debug] [MainThread]: Tracking: tracking
+[0m17:28:48.503566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b21ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b22110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b220e0>]}
+[0m17:28:48.509649 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m17:28:48.509809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '90b1ac45-9281-4a7d-a0f7-854e589db761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b21720>]}
+[0m17:28:48.520635 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m17:28:48.521861 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m17:28:48.542457 [debug] [MainThread]: Parsing macros/materializations/merge.sql
+[0m17:28:48.544218 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m17:28:48.546427 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m17:28:48.546969 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m17:28:48.548529 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m17:28:48.552428 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m17:28:48.552802 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:28:48.553030 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:28:48.553291 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:28:48.553494 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:28:48.553668 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m17:28:48.555204 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m17:28:48.556121 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m17:28:48.556799 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m17:28:48.563954 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m17:28:48.569799 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m17:28:48.575124 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m17:28:48.576981 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m17:28:48.577705 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m17:28:48.578423 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m17:28:48.580219 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m17:28:48.587728 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m17:28:48.588342 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m17:28:48.592374 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m17:28:48.599258 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m17:28:48.601608 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m17:28:48.602753 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m17:28:48.605139 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m17:28:48.605674 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m17:28:48.607077 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m17:28:48.608006 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m17:28:48.610974 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m17:28:48.619215 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m17:28:48.619818 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m17:28:48.620830 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m17:28:48.621455 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m17:28:48.621826 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m17:28:48.622146 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m17:28:48.622420 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m17:28:48.622970 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m17:28:48.624805 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m17:28:48.628443 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m17:28:48.628765 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m17:28:48.629284 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m17:28:48.629661 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m17:28:48.630031 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m17:28:48.630525 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m17:28:48.630837 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:28:48.631238 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:28:48.631669 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m17:28:48.632715 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m17:28:48.633204 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:28:48.633637 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m17:28:48.634058 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m17:28:48.634464 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m17:28:48.634823 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m17:28:48.635247 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m17:28:48.635599 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m17:28:48.637984 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:28:48.638351 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m17:28:48.639073 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m17:28:48.639925 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m17:28:48.640334 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m17:28:48.641231 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m17:28:48.642297 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m17:28:48.648578 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m17:28:48.649747 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m17:28:48.655426 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m17:28:48.657213 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m17:28:48.660276 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m17:28:48.664355 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m17:28:48.764367 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:28:48.807644 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m17:28:48.810111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '90b1ac45-9281-4a7d-a0f7-854e589db761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cbbfd0>]}
+[0m17:28:48.812910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '90b1ac45-9281-4a7d-a0f7-854e589db761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cbb910>]}
+[0m17:28:48.813047 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m17:28:48.813155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '90b1ac45-9281-4a7d-a0f7-854e589db761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b9ee60>]}
+[0m17:28:48.813750 [info ] [MainThread]: 
+[0m17:28:48.813947 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:28:48.814289 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN"
+[0m17:28:48.820467 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN"
+[0m17:28:48.820629 [debug] [ThreadPool]: On list_DAVID_MILLMAN: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m17:28:48.820694 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:28:49.637847 [debug] [ThreadPool]: Snowflake adapter: Got an error when attempting to open a snowflake connection. No retries attempted: '250001 (08001): Failed to connect to DB: fivetran.snowflakecomputing.com:443. Incorrect username or password was specified.'
+[0m17:28:49.638264 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m17:28:49.638404 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:28:49.638612 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m17:28:49.638734 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m17:28:49.638946 [debug] [ThreadPool]: On list_DAVID_MILLMAN: No close available on handle
+[0m17:28:49.639629 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:28:49.639816 [debug] [MainThread]: Connection 'list_DAVID_MILLMAN' was properly closed.
+[0m17:28:49.640045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cbbcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cbbdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cae0e0>]}
+
+
+============================== 2022-08-30 17:33:24.070075 | 708be5ec-f05c-4af7-94c8-7391d3e3ec7a ==============================
+[0m17:33:24.070094 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:33:24.070731 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'select': ['export', 'DBT_SNOWFLAKE_PASSWORD=Winston!2345'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:33:24.070841 [debug] [MainThread]: Tracking: tracking
+[0m17:33:24.071014 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c26f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c25d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c25e70>]}
+[0m17:33:24.081486 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m17:33:24.081696 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m17:33:24.081796 [info ] [MainThread]: Unable to do partial parsing because env vars used in profiles.yml have changed
+[0m17:33:24.081900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '708be5ec-f05c-4af7-94c8-7391d3e3ec7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c26530>]}
+[0m17:33:24.098391 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m17:33:24.099747 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m17:33:24.120677 [debug] [MainThread]: Parsing macros/materializations/merge.sql
+[0m17:33:24.122373 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m17:33:24.124667 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m17:33:24.125239 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m17:33:24.126805 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m17:33:24.130735 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m17:33:24.131126 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:33:24.131367 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:33:24.131629 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:33:24.131833 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:33:24.132007 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m17:33:24.133554 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m17:33:24.134478 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m17:33:24.135172 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m17:33:24.142434 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m17:33:24.148291 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m17:33:24.153583 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m17:33:24.155445 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m17:33:24.156176 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m17:33:24.156899 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m17:33:24.158693 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m17:33:24.166182 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m17:33:24.166813 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m17:33:24.170845 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m17:33:24.177694 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m17:33:24.180033 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m17:33:24.181170 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m17:33:24.183508 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m17:33:24.184023 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m17:33:24.185414 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m17:33:24.186330 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m17:33:24.189293 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m17:33:24.197316 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m17:33:24.197917 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m17:33:24.198925 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m17:33:24.199556 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m17:33:24.199924 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m17:33:24.200240 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m17:33:24.200517 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m17:33:24.201062 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m17:33:24.202886 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m17:33:24.206497 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m17:33:24.206822 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m17:33:24.207315 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m17:33:24.207709 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m17:33:24.208080 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m17:33:24.208574 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m17:33:24.208886 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:33:24.209298 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:33:24.209744 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m17:33:24.210767 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m17:33:24.211258 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:33:24.211694 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m17:33:24.212113 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m17:33:24.212522 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m17:33:24.212885 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m17:33:24.213309 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m17:33:24.213672 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m17:33:24.216045 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:33:24.216407 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m17:33:24.217125 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m17:33:24.217978 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m17:33:24.218388 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m17:33:24.219412 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m17:33:24.220482 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m17:33:24.226780 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m17:33:24.227962 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m17:33:24.233623 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m17:33:24.235431 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m17:33:24.238473 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m17:33:24.242516 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m17:33:24.341992 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:33:24.384811 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m17:33:24.387132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '708be5ec-f05c-4af7-94c8-7391d3e3ec7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106db4130>]}
+[0m17:33:24.390338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '708be5ec-f05c-4af7-94c8-7391d3e3ec7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bbdb10>]}
+[0m17:33:24.390476 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m17:33:24.390583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '708be5ec-f05c-4af7-94c8-7391d3e3ec7a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061c3280>]}
+[0m17:33:24.390783 [warn ] [MainThread]: The selection criterion 'export' does not match any nodes
+[0m17:33:24.390896 [warn ] [MainThread]: The selection criterion 'DBT_SNOWFLAKE_PASSWORD=Winston!2345' does not match any nodes
+[0m17:33:24.391276 [info ] [MainThread]: 
+[0m17:33:24.391389 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m17:33:24.394086 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bbe830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bbd210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106db4160>]}
+
+
+============================== 2022-08-30 17:33:54.766477 | 5d98a749-84aa-46c8-b1da-237e77a586b4 ==============================
+[0m17:33:54.766496 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:33:54.767060 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:33:54.767155 [debug] [MainThread]: Tracking: tracking
+[0m17:33:54.767381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10853a020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10853a0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10853a140>]}
+[0m17:33:54.777251 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m17:33:54.777444 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m17:33:54.777541 [info ] [MainThread]: Unable to do partial parsing because env vars used in profiles.yml have changed
+[0m17:33:54.777649 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5d98a749-84aa-46c8-b1da-237e77a586b4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10853a740>]}
+[0m17:33:54.789399 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m17:33:54.790705 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m17:33:54.812028 [debug] [MainThread]: Parsing macros/materializations/merge.sql
+[0m17:33:54.813835 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m17:33:54.816289 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m17:33:54.816902 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m17:33:54.818514 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m17:33:54.823020 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m17:33:54.823531 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:33:54.823781 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:33:54.824062 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:33:54.824273 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:33:54.824452 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m17:33:54.826039 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m17:33:54.826955 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m17:33:54.827644 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m17:33:54.835158 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m17:33:54.841208 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m17:33:54.846673 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m17:33:54.848583 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m17:33:54.849343 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m17:33:54.850070 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m17:33:54.851895 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m17:33:54.859482 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m17:33:54.860106 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m17:33:54.864140 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m17:33:54.871050 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m17:33:54.873397 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m17:33:54.874549 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m17:33:54.876885 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m17:33:54.877400 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m17:33:54.878792 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m17:33:54.879715 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m17:33:54.882678 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m17:33:54.890753 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m17:33:54.891351 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m17:33:54.892367 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m17:33:54.892996 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m17:33:54.893375 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m17:33:54.893704 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m17:33:54.893983 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m17:33:54.894535 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m17:33:54.896335 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m17:33:54.899955 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m17:33:54.900281 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m17:33:54.900776 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m17:33:54.901165 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m17:33:54.901536 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m17:33:54.902030 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m17:33:54.902347 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m17:33:54.902764 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m17:33:54.903200 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m17:33:54.904228 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m17:33:54.904717 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m17:33:54.905146 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m17:33:54.905576 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m17:33:54.905989 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m17:33:54.906350 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m17:33:54.906775 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m17:33:54.907130 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m17:33:54.909517 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m17:33:54.909888 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m17:33:54.910609 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m17:33:54.911450 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m17:33:54.911863 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m17:33:54.912883 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m17:33:54.913943 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m17:33:54.920270 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m17:33:54.921430 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m17:33:54.927079 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m17:33:54.928878 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m17:33:54.931913 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m17:33:54.935956 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m17:33:55.037282 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:33:55.079865 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m17:33:55.082242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5d98a749-84aa-46c8-b1da-237e77a586b4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ace7d0>]}
+[0m17:33:55.085116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5d98a749-84aa-46c8-b1da-237e77a586b4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084d2b00>]}
+[0m17:33:55.085252 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m17:33:55.085363 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5d98a749-84aa-46c8-b1da-237e77a586b4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084d05e0>]}
+[0m17:33:55.085984 [info ] [MainThread]: 
+[0m17:33:55.086213 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:33:55.086574 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN"
+[0m17:33:55.092669 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN"
+[0m17:33:55.092830 [debug] [ThreadPool]: On list_DAVID_MILLMAN: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m17:33:55.092896 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:33:56.223739 [debug] [ThreadPool]: SQL status: SUCCESS 13 in 1.13 seconds
+[0m17:33:56.226095 [debug] [ThreadPool]: On list_DAVID_MILLMAN: Close
+[0m17:33:56.407764 [debug] [ThreadPool]: Acquiring new snowflake connection "create_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:33:56.408240 [debug] [ThreadPool]: Acquiring new snowflake connection "create_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:33:56.408414 [debug] [ThreadPool]: Creating schema "_ReferenceKey(database='david_millman', schema='dbt_schema', identifier=None)"
+[0m17:33:56.412919 [debug] [ThreadPool]: Using snowflake connection "create_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:33:56.413196 [debug] [ThreadPool]: On create_DAVID_MILLMAN_DBT_SCHEMA: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "create_DAVID_MILLMAN_DBT_SCHEMA"} */
+create schema if not exists DAVID_MILLMAN.DBT_SCHEMA
+[0m17:33:56.413298 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:33:57.327722 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.91 seconds
+[0m17:33:57.329862 [debug] [ThreadPool]: On create_DAVID_MILLMAN_DBT_SCHEMA: Close
+[0m17:33:57.539515 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:33:57.547548 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:33:57.547742 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN_DBT_SCHEMA"} */
+show terse objects in DAVID_MILLMAN.DBT_SCHEMA
+[0m17:33:57.547870 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:33:58.543614 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 1.0 seconds
+[0m17:33:58.546097 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: Close
+[0m17:33:58.749547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5d98a749-84aa-46c8-b1da-237e77a586b4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c22650>]}
+[0m17:33:58.750294 [info ] [MainThread]: Concurrency: 4 threads (target='snowflake')
+[0m17:33:58.750662 [info ] [MainThread]: 
+[0m17:33:58.759102 [debug] [Thread-1 (]: Began running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:33:58.759498 [info ] [Thread-1 (]: 1 of 1 START view model DBT_SCHEMA.test-model_dbt .............................. [RUN]
+[0m17:33:58.759919 [debug] [Thread-1 (]: Acquiring new snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:33:58.760057 [debug] [Thread-1 (]: Began compiling node model.dmillman_kdbt_test.test-model_dbt
+[0m17:33:58.760200 [debug] [Thread-1 (]: Compiling model.dmillman_kdbt_test.test-model_dbt
+[0m17:33:58.763140 [debug] [Thread-1 (]: Writing injected SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:33:58.763992 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:33:58.764136 [debug] [Thread-1 (]: Began executing node model.dmillman_kdbt_test.test-model_dbt
+[0m17:33:58.784530 [debug] [Thread-1 (]: Writing runtime SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:33:58.785308 [debug] [Thread-1 (]: Using snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:33:58.785401 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "node_id": "model.dmillman_kdbt_test.test-model_dbt"} */
+create or replace  view DAVID_MILLMAN.DBT_SCHEMA.test-model_dbt
+  
+   as (
+    with source as {
+ select * from DAVID_MILLMAN.SALESFORCE.account
+}
+
+select * from source
+  );
+[0m17:33:58.785476 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:33:59.770788 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01a6a35d-0504-c2f6-0000-0505e061c012
+[0m17:33:59.771182 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 53 unexpected '-'.
+[0m17:33:59.771487 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:33:59.771673 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: Close
+[0m17:33:59.941968 [debug] [Thread-1 (]: Database Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 53 unexpected '-'.
+  compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:33:59.942319 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5d98a749-84aa-46c8-b1da-237e77a586b4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f1f4c0>]}
+[0m17:33:59.942614 [error] [Thread-1 (]: 1 of 1 ERROR creating view model DBT_SCHEMA.test-model_dbt ..................... [[31mERROR[0m in 1.18s]
+[0m17:33:59.942925 [debug] [Thread-1 (]: Finished running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:33:59.943756 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:33:59.943999 [info ] [MainThread]: 
+[0m17:33:59.944173 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 4.86 seconds (4.86s).
+[0m17:33:59.944329 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:33:59.944416 [debug] [MainThread]: Connection 'model.dmillman_kdbt_test.test-model_dbt' was properly closed.
+[0m17:33:59.949784 [info ] [MainThread]: 
+[0m17:33:59.949980 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m17:33:59.950142 [info ] [MainThread]: 
+[0m17:33:59.950278 [error] [MainThread]: [33mDatabase Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)[0m
+[0m17:33:59.950409 [error] [MainThread]:   001003 (42000): SQL compilation error:
+[0m17:33:59.951763 [error] [MainThread]:   syntax error line 1 at position 53 unexpected '-'.
+[0m17:33:59.951888 [error] [MainThread]:   compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:33:59.952017 [info ] [MainThread]: 
+[0m17:33:59.952147 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m17:33:59.952345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084d29b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a5bca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108ebfac0>]}
+
+
+============================== 2022-08-30 17:36:30.298255 | fe06aa85-924d-41c6-9c2e-7d1a3bb88c16 ==============================
+[0m17:36:30.298292 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:36:30.298987 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:36:30.299426 [debug] [MainThread]: Tracking: tracking
+[0m17:36:30.299666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068e9ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068ea110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068ea0e0>]}
+[0m17:36:30.322322 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m17:36:30.322629 [debug] [MainThread]: Partial parsing: updated file: dmillman_kdbt_test://models/snowflake/test-model_dbt.sql
+[0m17:36:30.329636 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:36:30.336611 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m17:36:30.338922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fe06aa85-924d-41c6-9c2e-7d1a3bb88c16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aaa7a0>]}
+[0m17:36:30.342163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fe06aa85-924d-41c6-9c2e-7d1a3bb88c16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a17eb0>]}
+[0m17:36:30.342313 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m17:36:30.342437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fe06aa85-924d-41c6-9c2e-7d1a3bb88c16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a09420>]}
+[0m17:36:30.343145 [info ] [MainThread]: 
+[0m17:36:30.343382 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:36:30.343759 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN"
+[0m17:36:30.349841 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN"
+[0m17:36:30.350013 [debug] [ThreadPool]: On list_DAVID_MILLMAN: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m17:36:30.350079 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:36:31.434810 [debug] [ThreadPool]: SQL status: SUCCESS 14 in 1.08 seconds
+[0m17:36:31.436790 [debug] [ThreadPool]: On list_DAVID_MILLMAN: Close
+[0m17:36:31.633478 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:36:31.639604 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:36:31.639789 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN_DBT_SCHEMA"} */
+show terse objects in DAVID_MILLMAN.DBT_SCHEMA
+[0m17:36:31.639890 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:36:32.295808 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.66 seconds
+[0m17:36:32.299128 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: Close
+[0m17:36:32.544864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fe06aa85-924d-41c6-9c2e-7d1a3bb88c16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aa0910>]}
+[0m17:36:32.545671 [info ] [MainThread]: Concurrency: 4 threads (target='snowflake')
+[0m17:36:32.546018 [info ] [MainThread]: 
+[0m17:36:32.552847 [debug] [Thread-1 (]: Began running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:36:32.553347 [info ] [Thread-1 (]: 1 of 1 START view model DBT_SCHEMA.test-model_dbt .............................. [RUN]
+[0m17:36:32.553831 [debug] [Thread-1 (]: Acquiring new snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:36:32.553986 [debug] [Thread-1 (]: Began compiling node model.dmillman_kdbt_test.test-model_dbt
+[0m17:36:32.554140 [debug] [Thread-1 (]: Compiling model.dmillman_kdbt_test.test-model_dbt
+[0m17:36:32.556765 [debug] [Thread-1 (]: Writing injected SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:36:32.558015 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:36:32.558198 [debug] [Thread-1 (]: Began executing node model.dmillman_kdbt_test.test-model_dbt
+[0m17:36:32.579534 [debug] [Thread-1 (]: Writing runtime SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:36:32.580221 [debug] [Thread-1 (]: Using snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:36:32.580324 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "node_id": "model.dmillman_kdbt_test.test-model_dbt"} */
+create or replace  view DAVID_MILLMAN.DBT_SCHEMA.test-model_dbt
+  
+   as (
+    with source as (
+ select * from DAVID_MILLMAN.SALESFORCE.account
+)
+
+select * from source
+  );
+[0m17:36:32.580404 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:36:33.484748 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01a6a360-0504-c2f6-0000-0505e061cb6a
+[0m17:36:33.485166 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 53 unexpected '-'.
+[0m17:36:33.485483 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:36:33.485673 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: Close
+[0m17:36:33.685085 [debug] [Thread-1 (]: Database Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 53 unexpected '-'.
+  compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:36:33.685602 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fe06aa85-924d-41c6-9c2e-7d1a3bb88c16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072985b0>]}
+[0m17:36:33.686115 [error] [Thread-1 (]: 1 of 1 ERROR creating view model DBT_SCHEMA.test-model_dbt ..................... [[31mERROR[0m in 1.13s]
+[0m17:36:33.686639 [debug] [Thread-1 (]: Finished running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:36:33.688161 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:36:33.688601 [info ] [MainThread]: 
+[0m17:36:33.688906 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.35 seconds (3.35s).
+[0m17:36:33.689182 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:36:33.689325 [debug] [MainThread]: Connection 'model.dmillman_kdbt_test.test-model_dbt' was properly closed.
+[0m17:36:33.696826 [info ] [MainThread]: 
+[0m17:36:33.697120 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m17:36:33.697326 [info ] [MainThread]: 
+[0m17:36:33.697499 [error] [MainThread]: [33mDatabase Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)[0m
+[0m17:36:33.697667 [error] [MainThread]:   001003 (42000): SQL compilation error:
+[0m17:36:33.697824 [error] [MainThread]:   syntax error line 1 at position 53 unexpected '-'.
+[0m17:36:33.697979 [error] [MainThread]:   compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:36:33.698142 [info ] [MainThread]: 
+[0m17:36:33.698306 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m17:36:33.698540 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aa1b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aa1ae0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d25ab0>]}
+
+
+============================== 2022-08-30 17:37:21.864011 | f2d8726e-9c33-4040-8b94-3fa2ee72c6e8 ==============================
+[0m17:37:21.864051 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:37:21.864667 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:37:21.864770 [debug] [MainThread]: Tracking: tracking
+[0m17:37:21.864949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10725e050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10725e0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10725e170>]}
+[0m17:37:21.876573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10725cd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107372170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107371ff0>]}
+
+
+============================== 2022-08-30 17:37:42.601498 | edd93643-f673-4d6c-96d1-d9ee32bd5883 ==============================
+[0m17:37:42.601535 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:37:42.604093 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:37:42.604571 [debug] [MainThread]: Tracking: tracking
+[0m17:37:42.608014 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10762a050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10762a0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10762a170>]}
+[0m17:37:42.629429 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:37:42.629565 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:37:42.629718 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m17:37:42.632308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'edd93643-f673-4d6c-96d1-d9ee32bd5883', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077a3ee0>]}
+[0m17:37:42.635866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'edd93643-f673-4d6c-96d1-d9ee32bd5883', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10776a500>]}
+[0m17:37:42.636045 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m17:37:42.636164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'edd93643-f673-4d6c-96d1-d9ee32bd5883', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10776a860>]}
+[0m17:37:42.636900 [info ] [MainThread]: 
+[0m17:37:42.637147 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:37:42.637593 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN"
+[0m17:37:42.643697 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN"
+[0m17:37:42.643860 [debug] [ThreadPool]: On list_DAVID_MILLMAN: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m17:37:42.643926 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:37:43.679012 [debug] [ThreadPool]: SQL status: SUCCESS 14 in 1.04 seconds
+[0m17:37:43.681534 [debug] [ThreadPool]: On list_DAVID_MILLMAN: Close
+[0m17:37:43.881565 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:37:43.886598 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:37:43.886713 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN_DBT_SCHEMA"} */
+show terse objects in DAVID_MILLMAN.DBT_SCHEMA
+[0m17:37:43.886796 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:37:44.568608 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.68 seconds
+[0m17:37:44.571870 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: Close
+[0m17:37:44.767989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'edd93643-f673-4d6c-96d1-d9ee32bd5883', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077d71f0>]}
+[0m17:37:44.768488 [info ] [MainThread]: Concurrency: 4 threads (target='snowflake')
+[0m17:37:44.768709 [info ] [MainThread]: 
+[0m17:37:44.775304 [debug] [Thread-1 (]: Began running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:44.775605 [info ] [Thread-1 (]: 1 of 1 START view model DBT_SCHEMA.test-model_dbt .............................. [RUN]
+[0m17:37:44.775950 [debug] [Thread-1 (]: Acquiring new snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:37:44.776074 [debug] [Thread-1 (]: Began compiling node model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:44.776184 [debug] [Thread-1 (]: Compiling model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:44.778107 [debug] [Thread-1 (]: Writing injected SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:37:44.778880 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:37:44.779017 [debug] [Thread-1 (]: Began executing node model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:44.796364 [debug] [Thread-1 (]: Writing runtime SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:37:44.796988 [debug] [Thread-1 (]: Using snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:37:44.797077 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "node_id": "model.dmillman_kdbt_test.test-model_dbt"} */
+create or replace  view DAVID_MILLMAN.DBT_SCHEMA.test-model_dbt
+  
+   as (
+    with source as (
+ select * from DAVID_MILLMAN.SALESFORCE.account
+)
+
+select * from source
+  );
+[0m17:37:44.797148 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:37:45.746288 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01a6a361-0504-c2f6-0000-0505e06210de
+[0m17:37:45.746641 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 53 unexpected '-'.
+[0m17:37:45.746940 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:37:45.747121 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: Close
+[0m17:37:45.942989 [debug] [Thread-1 (]: Database Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 53 unexpected '-'.
+  compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:37:45.943439 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'edd93643-f673-4d6c-96d1-d9ee32bd5883', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ef28f0>]}
+[0m17:37:45.943965 [error] [Thread-1 (]: 1 of 1 ERROR creating view model DBT_SCHEMA.test-model_dbt ..................... [[31mERROR[0m in 1.17s]
+[0m17:37:45.944531 [debug] [Thread-1 (]: Finished running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:45.946134 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:37:45.946587 [info ] [MainThread]: 
+[0m17:37:45.946843 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.31 seconds (3.31s).
+[0m17:37:45.947413 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:37:45.947630 [debug] [MainThread]: Connection 'model.dmillman_kdbt_test.test-model_dbt' was properly closed.
+[0m17:37:45.954835 [info ] [MainThread]: 
+[0m17:37:45.955150 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m17:37:45.955370 [info ] [MainThread]: 
+[0m17:37:45.955551 [error] [MainThread]: [33mDatabase Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)[0m
+[0m17:37:45.955729 [error] [MainThread]:   001003 (42000): SQL compilation error:
+[0m17:37:45.955888 [error] [MainThread]:   syntax error line 1 at position 53 unexpected '-'.
+[0m17:37:45.956044 [error] [MainThread]:   compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:37:45.956214 [info ] [MainThread]: 
+[0m17:37:45.956383 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m17:37:45.956656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107769c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10776a5c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ea7190>]}
+
+
+============================== 2022-08-30 17:37:55.240552 | c02533d6-0731-4f99-84a8-83ffed15d6ae ==============================
+[0m17:37:55.240596 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:37:55.241007 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:37:55.241117 [debug] [MainThread]: Tracking: tracking
+[0m17:37:55.241404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110429ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11042a110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11042a0e0>]}
+[0m17:37:55.261611 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:37:55.261758 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:37:55.261913 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m17:37:55.264486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c02533d6-0731-4f99-84a8-83ffed15d6ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105a3f10>]}
+[0m17:37:55.267930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c02533d6-0731-4f99-84a8-83ffed15d6ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11056a530>]}
+[0m17:37:55.268147 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m17:37:55.268271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c02533d6-0731-4f99-84a8-83ffed15d6ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11056a890>]}
+[0m17:37:55.269007 [info ] [MainThread]: 
+[0m17:37:55.269231 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:37:55.269607 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN"
+[0m17:37:55.276144 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN"
+[0m17:37:55.276305 [debug] [ThreadPool]: On list_DAVID_MILLMAN: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m17:37:55.276404 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:37:56.382176 [debug] [ThreadPool]: SQL status: SUCCESS 14 in 1.11 seconds
+[0m17:37:56.384146 [debug] [ThreadPool]: On list_DAVID_MILLMAN: Close
+[0m17:37:56.675932 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:37:56.680998 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:37:56.681199 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN_DBT_SCHEMA"} */
+show terse objects in DAVID_MILLMAN.DBT_SCHEMA
+[0m17:37:56.681281 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:37:57.657707 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.98 seconds
+[0m17:37:57.660667 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: Close
+[0m17:37:57.919322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c02533d6-0731-4f99-84a8-83ffed15d6ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105db1f0>]}
+[0m17:37:57.920104 [info ] [MainThread]: Concurrency: 4 threads (target='snowflake')
+[0m17:37:57.920473 [info ] [MainThread]: 
+[0m17:37:57.927659 [debug] [Thread-1 (]: Began running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:57.928074 [info ] [Thread-1 (]: 1 of 1 START view model DBT_SCHEMA.test-model_dbt .............................. [RUN]
+[0m17:37:57.928495 [debug] [Thread-1 (]: Acquiring new snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:37:57.928643 [debug] [Thread-1 (]: Began compiling node model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:57.928787 [debug] [Thread-1 (]: Compiling model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:57.931432 [debug] [Thread-1 (]: Writing injected SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:37:57.932052 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:37:57.932218 [debug] [Thread-1 (]: Began executing node model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:57.953293 [debug] [Thread-1 (]: Writing runtime SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:37:57.954102 [debug] [Thread-1 (]: Using snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:37:57.954270 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "node_id": "model.dmillman_kdbt_test.test-model_dbt"} */
+create or replace  view DAVID_MILLMAN.DBT_SCHEMA.test-model_dbt
+  
+   as (
+    with source as (
+ select * from DAVID_MILLMAN.SALESFORCE.account
+)
+
+select * from source
+  );
+[0m17:37:57.954365 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:37:59.099499 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01a6a361-0504-c2f6-0000-0505e06211ca
+[0m17:37:59.099881 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 53 unexpected '-'.
+[0m17:37:59.100205 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:37:59.100411 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: Close
+[0m17:37:59.558853 [debug] [Thread-1 (]: Database Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 53 unexpected '-'.
+  compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:37:59.559393 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c02533d6-0731-4f99-84a8-83ffed15d6ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1107adf30>]}
+[0m17:37:59.559944 [error] [Thread-1 (]: 1 of 1 ERROR creating view model DBT_SCHEMA.test-model_dbt ..................... [[31mERROR[0m in 1.63s]
+[0m17:37:59.560509 [debug] [Thread-1 (]: Finished running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:37:59.561978 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:37:59.562337 [info ] [MainThread]: 
+[0m17:37:59.562570 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 4.29 seconds (4.29s).
+[0m17:37:59.562791 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:37:59.562908 [debug] [MainThread]: Connection 'model.dmillman_kdbt_test.test-model_dbt' was properly closed.
+[0m17:37:59.569666 [info ] [MainThread]: 
+[0m17:37:59.569964 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m17:37:59.570189 [info ] [MainThread]: 
+[0m17:37:59.570374 [error] [MainThread]: [33mDatabase Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)[0m
+[0m17:37:59.570552 [error] [MainThread]:   001003 (42000): SQL compilation error:
+[0m17:37:59.570718 [error] [MainThread]:   syntax error line 1 at position 53 unexpected '-'.
+[0m17:37:59.570876 [error] [MainThread]:   compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:37:59.571049 [info ] [MainThread]: 
+[0m17:37:59.571235 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m17:37:59.571517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110569d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11056a5f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110767190>]}
+
+
+============================== 2022-08-30 17:44:29.320457 | 06a27ec9-9ae2-4af2-a968-3f9daefc5ccf ==============================
+[0m17:44:29.320487 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:44:29.325429 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:44:29.328396 [debug] [MainThread]: Tracking: tracking
+[0m17:44:29.331092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ede050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ede0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ede170>]}
+[0m17:44:29.356194 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:44:29.356319 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:44:29.356471 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m17:44:29.358969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '06a27ec9-9ae2-4af2-a968-3f9daefc5ccf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105093ee0>]}
+[0m17:44:29.362853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '06a27ec9-9ae2-4af2-a968-3f9daefc5ccf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10505a500>]}
+[0m17:44:29.363059 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m17:44:29.363177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '06a27ec9-9ae2-4af2-a968-3f9daefc5ccf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10505a860>]}
+[0m17:44:29.363875 [info ] [MainThread]: 
+[0m17:44:29.364091 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:44:29.364555 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN"
+[0m17:44:29.371340 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN"
+[0m17:44:29.371445 [debug] [ThreadPool]: On list_DAVID_MILLMAN: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m17:44:29.371511 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:44:30.534637 [debug] [ThreadPool]: SQL status: SUCCESS 14 in 1.16 seconds
+[0m17:44:30.537433 [debug] [ThreadPool]: On list_DAVID_MILLMAN: Close
+[0m17:44:30.723249 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:44:30.729315 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:44:30.729492 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN_DBT_SCHEMA"} */
+show terse objects in DAVID_MILLMAN.DBT_SCHEMA
+[0m17:44:30.729589 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:44:31.355312 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.63 seconds
+[0m17:44:31.356730 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: Close
+[0m17:44:31.550270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '06a27ec9-9ae2-4af2-a968-3f9daefc5ccf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050cb1f0>]}
+[0m17:44:31.550947 [info ] [MainThread]: Concurrency: 4 threads (target='snowflake')
+[0m17:44:31.551245 [info ] [MainThread]: 
+[0m17:44:31.558696 [debug] [Thread-1 (]: Began running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:44:31.559166 [info ] [Thread-1 (]: 1 of 1 START view model DBT_SCHEMA.test-model_dbt .............................. [RUN]
+[0m17:44:31.559682 [debug] [Thread-1 (]: Acquiring new snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:44:31.559870 [debug] [Thread-1 (]: Began compiling node model.dmillman_kdbt_test.test-model_dbt
+[0m17:44:31.560032 [debug] [Thread-1 (]: Compiling model.dmillman_kdbt_test.test-model_dbt
+[0m17:44:31.562848 [debug] [Thread-1 (]: Writing injected SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:44:31.563816 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:44:31.563998 [debug] [Thread-1 (]: Began executing node model.dmillman_kdbt_test.test-model_dbt
+[0m17:44:31.584924 [debug] [Thread-1 (]: Writing runtime SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:44:31.585569 [debug] [Thread-1 (]: Using snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:44:31.585683 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "node_id": "model.dmillman_kdbt_test.test-model_dbt"} */
+create or replace  view DAVID_MILLMAN.DBT_SCHEMA.test-model_dbt
+  
+   as (
+    with source as (
+ select * from DAVID_MILLMAN.SALESFORCE.account
+)
+
+select * from source
+  );
+[0m17:44:31.585769 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:44:32.602004 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01a6a368-0504-c073-0000-0505e06291ce
+[0m17:44:32.602427 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 53 unexpected '-'.
+[0m17:44:32.602740 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:44:32.602922 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: Close
+[0m17:44:32.801138 [debug] [Thread-1 (]: Database Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 53 unexpected '-'.
+  compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:44:32.801673 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '06a27ec9-9ae2-4af2-a968-3f9daefc5ccf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10531e8f0>]}
+[0m17:44:32.802197 [error] [Thread-1 (]: 1 of 1 ERROR creating view model DBT_SCHEMA.test-model_dbt ..................... [[31mERROR[0m in 1.24s]
+[0m17:44:32.802764 [debug] [Thread-1 (]: Finished running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:44:32.804209 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:44:32.804631 [info ] [MainThread]: 
+[0m17:44:32.804909 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.44 seconds (3.44s).
+[0m17:44:32.805134 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:44:32.805250 [debug] [MainThread]: Connection 'model.dmillman_kdbt_test.test-model_dbt' was properly closed.
+[0m17:44:32.812562 [info ] [MainThread]: 
+[0m17:44:32.813115 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m17:44:32.813387 [info ] [MainThread]: 
+[0m17:44:32.813576 [error] [MainThread]: [33mDatabase Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)[0m
+[0m17:44:32.813760 [error] [MainThread]:   001003 (42000): SQL compilation error:
+[0m17:44:32.813928 [error] [MainThread]:   syntax error line 1 at position 53 unexpected '-'.
+[0m17:44:32.814088 [error] [MainThread]:   compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:44:32.814255 [info ] [MainThread]: 
+[0m17:44:32.814425 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m17:44:32.814695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1052d4e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1052d7250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10505a5f0>]}
+
+
+============================== 2022-08-30 17:47:50.545519 | 902a6166-cb14-4aac-b4eb-227d86b1d221 ==============================
+[0m17:47:50.545562 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:47:50.546446 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:47:50.546639 [debug] [MainThread]: Tracking: tracking
+[0m17:47:50.546948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110575f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110575fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105760b0>]}
+[0m17:47:50.559521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110575000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1106e9ae0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1106ea050>]}
+
+
+============================== 2022-08-30 17:48:02.640373 | 233c4ee7-1cd0-43e1-b0ba-7bb2e1242635 ==============================
+[0m17:48:02.640410 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:48:02.641514 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:48:02.641655 [debug] [MainThread]: Tracking: tracking
+[0m17:48:02.642002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a22020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a22080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a22140>]}
+[0m17:48:02.656271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a20d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b59b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b5a0e0>]}
+
+
+============================== 2022-08-30 17:48:19.991612 | 3104aa3b-6470-4fab-bdc3-2b5d2f660036 ==============================
+[0m17:48:19.991755 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:48:19.992483 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:48:19.992731 [debug] [MainThread]: Tracking: tracking
+[0m17:48:19.994273 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c82050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c82080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c82170>]}
+[0m17:48:20.016360 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m17:48:20.016628 [debug] [MainThread]: Partial parsing: deleted source source.dmillman_kdbt_test.snowflake.account
+[0m17:48:20.016705 [debug] [MainThread]: Partial parsing: update schema file: dmillman_kdbt_test://models/snowflake/snowflake_source.yml
+[0m17:48:20.023903 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test-model_dbt.sql
+[0m17:48:20.034492 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108dfd840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e550f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e567a0>]}
+
+
+============================== 2022-08-30 17:48:36.852704 | a15ec2eb-2039-43cc-a662-3d5d6afc95a6 ==============================
+[0m17:48:36.852742 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:48:36.854006 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:48:36.856745 [debug] [MainThread]: Tracking: tracking
+[0m17:48:36.857360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110845ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110846110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108460e0>]}
+[0m17:48:36.879484 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:48:36.879630 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:48:36.879796 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m17:48:36.882400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a15ec2eb-2039-43cc-a662-3d5d6afc95a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1109a3f10>]}
+[0m17:48:36.886072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a15ec2eb-2039-43cc-a662-3d5d6afc95a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11096a620>]}
+[0m17:48:36.886247 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m17:48:36.886366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a15ec2eb-2039-43cc-a662-3d5d6afc95a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11096a890>]}
+[0m17:48:36.887152 [info ] [MainThread]: 
+[0m17:48:36.887423 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:48:36.887896 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN"
+[0m17:48:36.894003 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN"
+[0m17:48:36.894137 [debug] [ThreadPool]: On list_DAVID_MILLMAN: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m17:48:36.894202 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:48:38.237857 [debug] [ThreadPool]: SQL status: SUCCESS 14 in 1.34 seconds
+[0m17:48:38.240698 [debug] [ThreadPool]: On list_DAVID_MILLMAN: Close
+[0m17:48:38.462881 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:48:38.471513 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:48:38.471697 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN_DBT_SCHEMA"} */
+show terse objects in DAVID_MILLMAN.DBT_SCHEMA
+[0m17:48:38.471825 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:48:39.483665 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 1.01 seconds
+[0m17:48:39.484698 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: Close
+[0m17:48:39.755512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a15ec2eb-2039-43cc-a662-3d5d6afc95a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1109db1f0>]}
+[0m17:48:39.756531 [info ] [MainThread]: Concurrency: 4 threads (target='snowflake')
+[0m17:48:39.756917 [info ] [MainThread]: 
+[0m17:48:39.764365 [debug] [Thread-1 (]: Began running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:48:39.764883 [info ] [Thread-1 (]: 1 of 1 START view model DBT_SCHEMA.test-model_dbt .............................. [RUN]
+[0m17:48:39.765383 [debug] [Thread-1 (]: Acquiring new snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:48:39.765554 [debug] [Thread-1 (]: Began compiling node model.dmillman_kdbt_test.test-model_dbt
+[0m17:48:39.765715 [debug] [Thread-1 (]: Compiling model.dmillman_kdbt_test.test-model_dbt
+[0m17:48:39.768290 [debug] [Thread-1 (]: Writing injected SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:48:39.769100 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:48:39.769200 [debug] [Thread-1 (]: Began executing node model.dmillman_kdbt_test.test-model_dbt
+[0m17:48:39.788666 [debug] [Thread-1 (]: Writing runtime SQL for node "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:48:39.789323 [debug] [Thread-1 (]: Using snowflake connection "model.dmillman_kdbt_test.test-model_dbt"
+[0m17:48:39.789422 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "node_id": "model.dmillman_kdbt_test.test-model_dbt"} */
+create or replace  view DAVID_MILLMAN.DBT_SCHEMA.test-model_dbt
+  
+   as (
+    with source as (
+ select * from DAVID_MILLMAN.SALESFORCE.account
+)
+
+select * from source
+  );
+[0m17:48:39.789502 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:48:40.735374 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01a6a36c-0504-c348-0000-0505e062d6c2
+[0m17:48:40.735801 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 1 at position 53 unexpected '-'.
+[0m17:48:40.736136 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:48:40.736341 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test-model_dbt: Close
+[0m17:48:40.918618 [debug] [Thread-1 (]: Database Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 1 at position 53 unexpected '-'.
+  compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:48:40.919183 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a15ec2eb-2039-43cc-a662-3d5d6afc95a6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ca9f30>]}
+[0m17:48:40.919724 [error] [Thread-1 (]: 1 of 1 ERROR creating view model DBT_SCHEMA.test-model_dbt ..................... [[31mERROR[0m in 1.15s]
+[0m17:48:40.920267 [debug] [Thread-1 (]: Finished running node model.dmillman_kdbt_test.test-model_dbt
+[0m17:48:40.921854 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:48:40.922279 [info ] [MainThread]: 
+[0m17:48:40.922534 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 4.03 seconds (4.03s).
+[0m17:48:40.922755 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:48:40.922872 [debug] [MainThread]: Connection 'model.dmillman_kdbt_test.test-model_dbt' was properly closed.
+[0m17:48:40.930125 [info ] [MainThread]: 
+[0m17:48:40.930388 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m17:48:40.930591 [info ] [MainThread]: 
+[0m17:48:40.930768 [error] [MainThread]: [33mDatabase Error in model test-model_dbt (models/snowflake/test-model_dbt.sql)[0m
+[0m17:48:40.930940 [error] [MainThread]:   001003 (42000): SQL compilation error:
+[0m17:48:40.931099 [error] [MainThread]:   syntax error line 1 at position 53 unexpected '-'.
+[0m17:48:40.931254 [error] [MainThread]:   compiled SQL at target/run/dmillman_kdbt_test/models/snowflake/test-model_dbt.sql
+[0m17:48:40.931416 [info ] [MainThread]: 
+[0m17:48:40.931584 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m17:48:40.931823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110969d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11096a5f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c67190>]}
+
+
+============================== 2022-08-30 17:57:26.449119 | f7a9daca-0635-42c9-9586-484fcfdf960b ==============================
+[0m17:57:26.449150 [info ] [MainThread]: Running with dbt=1.2.0
+[0m17:57:26.454265 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:57:26.457977 [debug] [MainThread]: Tracking: tracking
+[0m17:57:26.458685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ebdff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ebe050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ebe110>]}
+[0m17:57:26.480611 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+[0m17:57:26.480814 [debug] [MainThread]: Partial parsing: added file: dmillman_kdbt_test://models/snowflake/test_model_dbt.sql
+[0m17:57:26.480877 [debug] [MainThread]: Partial parsing: deleted file: dmillman_kdbt_test://models/snowflake/test-model_dbt.sql
+[0m17:57:26.487337 [debug] [MainThread]: 1699: static parser successfully parsed snowflake/test_model_dbt.sql
+[0m17:57:26.494488 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m17:57:26.497087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f7a9daca-0635-42c9-9586-484fcfdf960b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10708a620>]}
+[0m17:57:26.500186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f7a9daca-0635-42c9-9586-484fcfdf960b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107003f70>]}
+[0m17:57:26.500333 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m17:57:26.500444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f7a9daca-0635-42c9-9586-484fcfdf960b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ff1390>]}
+[0m17:57:26.501126 [info ] [MainThread]: 
+[0m17:57:26.501341 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:57:26.501777 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN"
+[0m17:57:26.507821 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN"
+[0m17:57:26.507956 [debug] [ThreadPool]: On list_DAVID_MILLMAN: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m17:57:26.508016 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:57:28.686695 [debug] [ThreadPool]: SQL status: SUCCESS 14 in 2.18 seconds
+[0m17:57:28.689783 [debug] [ThreadPool]: On list_DAVID_MILLMAN: Close
+[0m17:57:29.115991 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:57:29.124672 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m17:57:29.124878 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN_DBT_SCHEMA"} */
+show terse objects in DAVID_MILLMAN.DBT_SCHEMA
+[0m17:57:29.125006 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:57:30.041131 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.92 seconds
+[0m17:57:30.044127 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: Close
+[0m17:57:30.264611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f7a9daca-0635-42c9-9586-484fcfdf960b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107091b40>]}
+[0m17:57:30.265618 [info ] [MainThread]: Concurrency: 4 threads (target='snowflake')
+[0m17:57:30.265991 [info ] [MainThread]: 
+[0m17:57:30.272245 [debug] [Thread-1 (]: Began running node model.dmillman_kdbt_test.test_model_dbt
+[0m17:57:30.272764 [info ] [Thread-1 (]: 1 of 1 START view model DBT_SCHEMA.test_model_dbt .............................. [RUN]
+[0m17:57:30.273319 [debug] [Thread-1 (]: Acquiring new snowflake connection "model.dmillman_kdbt_test.test_model_dbt"
+[0m17:57:30.273511 [debug] [Thread-1 (]: Began compiling node model.dmillman_kdbt_test.test_model_dbt
+[0m17:57:30.273687 [debug] [Thread-1 (]: Compiling model.dmillman_kdbt_test.test_model_dbt
+[0m17:57:30.276689 [debug] [Thread-1 (]: Writing injected SQL for node "model.dmillman_kdbt_test.test_model_dbt"
+[0m17:57:30.277582 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:57:30.277759 [debug] [Thread-1 (]: Began executing node model.dmillman_kdbt_test.test_model_dbt
+[0m17:57:30.299351 [debug] [Thread-1 (]: Writing runtime SQL for node "model.dmillman_kdbt_test.test_model_dbt"
+[0m17:57:30.299994 [debug] [Thread-1 (]: Using snowflake connection "model.dmillman_kdbt_test.test_model_dbt"
+[0m17:57:30.300092 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test_model_dbt: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "node_id": "model.dmillman_kdbt_test.test_model_dbt"} */
+create or replace  view DAVID_MILLMAN.DBT_SCHEMA.test_model_dbt
+  
+   as (
+    with source as (
+ select * from DAVID_MILLMAN.SALESFORCE.account
+)
+
+select * from source
+  );
+[0m17:57:30.300174 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:57:31.684776 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.38 seconds
+[0m17:57:31.703635 [debug] [Thread-1 (]: finished collecting timing info
+[0m17:57:31.703848 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test_model_dbt: Close
+[0m17:57:31.955187 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f7a9daca-0635-42c9-9586-484fcfdf960b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065c6620>]}
+[0m17:57:31.955952 [info ] [Thread-1 (]: 1 of 1 OK created view model DBT_SCHEMA.test_model_dbt ......................... [[32mSUCCESS 1[0m in 1.68s]
+[0m17:57:31.956587 [debug] [Thread-1 (]: Finished running node model.dmillman_kdbt_test.test_model_dbt
+[0m17:57:31.958254 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m17:57:31.958691 [info ] [MainThread]: 
+[0m17:57:31.958982 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 5.46 seconds (5.46s).
+[0m17:57:31.959202 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:57:31.959323 [debug] [MainThread]: Connection 'model.dmillman_kdbt_test.test_model_dbt' was properly closed.
+[0m17:57:31.967412 [info ] [MainThread]: 
+[0m17:57:31.967885 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:57:31.968158 [info ] [MainThread]: 
+[0m17:57:31.968596 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m17:57:31.968918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108161030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081637c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107091bd0>]}
+
+
+============================== 2022-08-30 19:02:30.277720 | a8de7260-3471-4081-877e-ab1c2c3b516b ==============================
+[0m19:02:30.277740 [info ] [MainThread]: Running with dbt=1.2.0
+[0m19:02:30.278479 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/david.millman/dbt_projects/dmillman_kdbt_test', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'target': 'snowflake', 'select': ['models/snowflake'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m19:02:30.278579 [debug] [MainThread]: Tracking: tracking
+[0m19:02:30.278771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106046050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060460b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106046170>]}
+[0m19:02:30.302897 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:02:30.303048 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:02:30.303218 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dmillman_kdbt_test.example
+
+[0m19:02:30.305885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a8de7260-3471-4081-877e-ab1c2c3b516b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10619fee0>]}
+[0m19:02:30.309925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a8de7260-3471-4081-877e-ab1c2c3b516b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061665f0>]}
+[0m19:02:30.310140 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 267 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+[0m19:02:30.310266 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a8de7260-3471-4081-877e-ab1c2c3b516b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106166860>]}
+[0m19:02:30.311118 [info ] [MainThread]: 
+[0m19:02:30.311419 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m19:02:30.311823 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN"
+[0m19:02:30.318639 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN"
+[0m19:02:30.318823 [debug] [ThreadPool]: On list_DAVID_MILLMAN: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN"} */
+show terse schemas in database DAVID_MILLMAN
+    limit 10000
+[0m19:02:30.318893 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:02:32.750687 [debug] [ThreadPool]: SQL status: SUCCESS 14 in 2.43 seconds
+[0m19:02:32.753047 [debug] [ThreadPool]: On list_DAVID_MILLMAN: Close
+[0m19:02:33.062524 [debug] [ThreadPool]: Acquiring new snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m19:02:33.071323 [debug] [ThreadPool]: Using snowflake connection "list_DAVID_MILLMAN_DBT_SCHEMA"
+[0m19:02:33.071591 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "connection_name": "list_DAVID_MILLMAN_DBT_SCHEMA"} */
+show terse objects in DAVID_MILLMAN.DBT_SCHEMA
+[0m19:02:33.071738 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m19:02:34.660496 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 1.59 seconds
+[0m19:02:34.663462 [debug] [ThreadPool]: On list_DAVID_MILLMAN_DBT_SCHEMA: Close
+[0m19:02:35.964870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a8de7260-3471-4081-877e-ab1c2c3b516b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061d71f0>]}
+[0m19:02:35.965811 [info ] [MainThread]: Concurrency: 4 threads (target='snowflake')
+[0m19:02:35.966118 [info ] [MainThread]: 
+[0m19:02:35.973661 [debug] [Thread-1 (]: Began running node model.dmillman_kdbt_test.test_model_dbt
+[0m19:02:35.974006 [info ] [Thread-1 (]: 1 of 1 START view model DBT_SCHEMA.test_model_dbt .............................. [RUN]
+[0m19:02:35.974580 [debug] [Thread-1 (]: Acquiring new snowflake connection "model.dmillman_kdbt_test.test_model_dbt"
+[0m19:02:35.974813 [debug] [Thread-1 (]: Began compiling node model.dmillman_kdbt_test.test_model_dbt
+[0m19:02:35.974965 [debug] [Thread-1 (]: Compiling model.dmillman_kdbt_test.test_model_dbt
+[0m19:02:35.977377 [debug] [Thread-1 (]: Writing injected SQL for node "model.dmillman_kdbt_test.test_model_dbt"
+[0m19:02:35.978377 [debug] [Thread-1 (]: finished collecting timing info
+[0m19:02:35.978616 [debug] [Thread-1 (]: Began executing node model.dmillman_kdbt_test.test_model_dbt
+[0m19:02:36.000613 [debug] [Thread-1 (]: Writing runtime SQL for node "model.dmillman_kdbt_test.test_model_dbt"
+[0m19:02:36.001425 [debug] [Thread-1 (]: Using snowflake connection "model.dmillman_kdbt_test.test_model_dbt"
+[0m19:02:36.001615 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test_model_dbt: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dmillman_kdbt_test", "target_name": "snowflake", "node_id": "model.dmillman_kdbt_test.test_model_dbt"} */
+create or replace  view DAVID_MILLMAN.DBT_SCHEMA.test_model_dbt
+  
+   as (
+    with source as (
+ select * from DAVID_MILLMAN.SALESFORCE.account
+)
+
+select * from source
+  );
+[0m19:02:36.001709 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m19:02:37.359631 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.36 seconds
+[0m19:02:37.380785 [debug] [Thread-1 (]: finished collecting timing info
+[0m19:02:37.381015 [debug] [Thread-1 (]: On model.dmillman_kdbt_test.test_model_dbt: Close
+[0m19:02:37.584508 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8de7260-3471-4081-877e-ab1c2c3b516b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10619c610>]}
+[0m19:02:37.585149 [info ] [Thread-1 (]: 1 of 1 OK created view model DBT_SCHEMA.test_model_dbt ......................... [[32mSUCCESS 1[0m in 1.61s]
+[0m19:02:37.585750 [debug] [Thread-1 (]: Finished running node model.dmillman_kdbt_test.test_model_dbt
+[0m19:02:37.587295 [debug] [MainThread]: Acquiring new snowflake connection "master"
+[0m19:02:37.587726 [info ] [MainThread]: 
+[0m19:02:37.587990 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 7.28 seconds (7.28s).
+[0m19:02:37.588221 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m19:02:37.588343 [debug] [MainThread]: Connection 'model.dmillman_kdbt_test.test_model_dbt' was properly closed.
+[0m19:02:37.596581 [info ] [MainThread]: 
+[0m19:02:37.596911 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m19:02:37.597145 [info ] [MainThread]: 
+[0m19:02:37.597332 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m19:02:37.597592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107563250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107563610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107563670>]}

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: snowflake
+    database: DAVID_MILLMAN
+    schema: SALESFORCE
+    tables:
+    - name: account
