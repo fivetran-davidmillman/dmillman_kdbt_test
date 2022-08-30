@@ -2,4 +2,4 @@ with source as (
  select * from {{ source('snowflake', 'account') }}
 )
 
-select * from source
+select NAME from source ORDER BY NAME
